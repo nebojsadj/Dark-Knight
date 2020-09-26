@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#sl{
+  width: 1680px;
+  height: 905px;
+  position: absolute;
+}
+h1{
+  margin-top: 20px;
+  margin-left: 680px;
+  color: white;
+  /* background: black; */
+  position: absolute;
+}
+#startWrapp{
+  width: 806px;
+  height: 806px;
+  border: 3px solid white;
+  background-color: white;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 440px;
+  user-select: none;
+  cursor: pointer;
+}
+#startWrapp img{
+  width: 800px;
+  height: 800px;
+}
+#wrapp{
+  width: 806px;
+  height: 806px;
+  border: 3px solid white;
+  background-color: white;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 440px;
+  user-select: none;
+  display: none;
+}
+#wrapp2{
+  width: 806px;
+  height: 806px;
+  border: 3px solid white;
+  background-color: white;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 440px;
+  user-select: none;
+  cursor: pointer;
+  display: none;
+}
+#wrapp2 img{
+  width: 800px;
+  height: 800px;
+}
+.box{
+  width: 80px;
+  height: 80px;
+  border: 1px solid #bbb;
+  float: left;
+}
+#player1{
+  width: 78px;
+  height: 78px;
+  border: 5px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+  /* position: absolute; */
+}
+#player2{
+  width: 78px;
+  height: 78px;
+  border: 5px solid red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wall{
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  background-color: gray;
+}
+img{
+  width: 78px;
+  height: 78px;
+}
+.arrow{
+  width: 78px;
+  height: 78px;
+  line-height: 78px;
+  background-color: #99ff99;
+  text-align: center;
+  font-size: 42px;
+  position: absolute;
+  opacity: 0.4;
+}
+.weapon,.players{
+  position: absolute;
+}
+
+#player1Health{
+  width: 300px;
+  height: 34px;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 70px;
+  background-color: black;
+}
+#player2Health{
+  width: 300px;
+  height: 34px;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 1315px;
+  background-color: black;
+}
+#player1Picture{
+  width: 280px;
+  height: 180px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 80px;
+}
+#player1Picture img{
+  width: 278px;
+  height: 178px;
+}
+#player2Picture{
+  width: 280px;
+  height: 180px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 1325px;
+}
+#player2Picture img{
+  width: 278px;
+  height: 178px;
+}
+h2{
+  position: absolute;
+}
+#jh{
+  margin-left: 180px;
+  margin-top: 50px;
+  font-size: 2.2em;
+  color: white;
+}
+#bh{
+  margin-left: 1400px;
+  margin-top: 50px;
+  font-size: 2.2em;
+  color: white;
+}
+#jokerWeapon{
+  width: 180px;
+  height: 120px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 130px;
+}
+#jokerWeapon img{
+  width: 180px;
+  height: 120px;
+}
+#batmanWeapon{
+  width: 180px;
+  height: 120px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 1375px;
+}
+#batmanWeapon img{
+  width: 180px;
+  height: 120px;
+}
+.knife{
+  width: 29.5px;
+  height: 30px;
+  border: 1px solid none;
+  background-color: red;
+  float: left;
+}
+.sword{
+  width: 49.2px;
+  height: 30px;
+  border: 1px solid none;
+  background-color: red;
+  float: left;
+}
+.gun{
+  width: 73.8px;
+  height: 30px;
+  border: 1px solid none;
+  background-color: red;
+  float: left;
+}
+.machineGun{
+  width: 147.7px;
+  height: 30px;
+  border: 1px solid none;
+  background-color: red;
+  float: left;
+}
+.hands{
+  width: 19.7px;
+  height: 30px;
+  border: 1px solid none;
+  background-color: red;
+  float: left;
+}
+#winnerJ{
+  width: 400px;
+  height: 510px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 20px;
+}
+#winnerJ img{
+  width: 398px;
+  height: 508px;
+}
+#winnerB{
+  width: 400px;
+  height: 510px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 1265px;
+}
+#winnerB img{
+  width: 398px;
+  height: 508px;
+}
+#wins1{
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 160px;
+  text-align: center;
+  font-size: 90px;
+  background-color: white;
+}
+#wins2{
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  border: 1px solid none;
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 1405px;
+  text-align: center;
+  font-size: 90px;
+  background-color: white;
+}
