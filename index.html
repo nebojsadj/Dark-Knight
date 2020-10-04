@@ -4,45 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Game</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-      <audio id="theme" src="sl/theme.mp3"></audio>
-      <audio id="audioJoker" src="sl/audioJoker.mp3"></audio>
-      <audio id="audioBatman" src="sl/audioBatman2.mp3"></audio>
-      <audio id="sound" src="sl/sound.mp3"></audio>
-      <audio id="fight" src="sl/fight.mp3"></audio>
-      <audio id="gameOwer" src="sl/gameOwer.mp3"></audio>
-  <img src="sl/wallBg.jpg" id="sl">
-      <h1>>> The Dark Knight <<</h1>
-  <div id="startWrapp">
-    <img src="sl/start.gif" alt="">
-  </div>
-  <div id="wrapp"></div>
-  <div id="wrapp2">
-    <img src="sl/fight.gif" alt="">
-  </div>
-  <h2 id="jh">Joker</h2>
-  <div id="player1Health"></div>
-  <div id="player1Picture">
-    <img src="sl/joker.gif" alt="">
-  </div>
-  <div id="jokerWeapon">
-    <img src="sl/hands.jpg" alt="">
-  </div>
-  <div id="wins1">0</div>
-  <div id="winnerJ"></div>
-  <h2 id="bh">Batman</h2>
-  <div id="player2Health"></div>
-  <div id="player2Picture">
-    <img src="sl/batman.gif" alt="">
-  </div>
-  <div id="batmanWeapon">
-    <img src="sl/hands.jpg" alt="">
-  </div>
-  <div id="wins2">0</div>
-  <div id="winnerB"></div>
+      <img src="sl/wallBg.jpg" id="sl">
+          <h1>>> The Dark Knight <<</h1>
+      <div id="startWrapp">
+        <img src="sl/start.gif" alt="startGif">
+      </div>
+      <div id="wrapp"></div>
+      <div id="wrapp2">
+        <img src="sl/fight.gif" alt="fightGif">
+      </div>
+      <div class="jokerPart">
+          <h2 id="jh">Joker</h2>
+          <div id="player1Health"></div>
+            <div id="player1Picture">
+              <img src="sl/joker.gif" alt="gifJoker">
+            </div>
+          <div id="jokerWeapon">
+              <img src="sl/hands.jpg" alt="imgJokerWeapon">
+          </div>
+          <div id="wins1">0</div>
+          <div id="winnerJ"></div>
+      </div>
+      <div class="batmanPart">
+          <h2 id="bh">Batman</h2>
+          <div id="player2Health"></div>
+          <div id="player2Picture">
+            <img src="sl/batman.gif" alt="gifBatman">
+          </div>
+          <div id="batmanWeapon">
+            <img src="sl/hands.jpg" alt="imgBatmanWeapon">
+          </div>
+          <div id="wins2">0</div>
+          <div id="winnerB"></div>
+      </div>
+
+    <audio id="theme" src="sl/theme.mp3"></audio>
+    <audio id="audioJoker" src="sl/audioJoker.mp3"></audio>
+    <audio id="audioBatman" src="sl/audioBatman2.mp3"></audio>
+    <audio id="sound" src="sl/sound.mp3"></audio>
+    <audio id="fight" src="sl/fight.mp3"></audio>
+    <audio id="gameOwer" src="sl/gameOwer.mp3"></audio>
 
   <script src="selectors.js" charset="utf-8"></script>
   <script src="insertWall.js" charset="utf-8"></script>
