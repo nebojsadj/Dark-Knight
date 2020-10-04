@@ -12,7 +12,6 @@ h1{
   margin-top: 20px;
   margin-left: 680px;
   color: white;
-  /* background: black; */
   position: absolute;
 }
 #startWrapp{
@@ -69,7 +68,6 @@ h1{
   border: 5px solid blue;
   border-radius: 50%;
   cursor: pointer;
-  /* position: absolute; */
 }
 #player2{
   width: 78px;
